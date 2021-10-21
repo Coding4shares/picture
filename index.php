@@ -128,7 +128,7 @@ $gettitle = getTitel($id);
     $datedate = createUser($id);
     $datedate = json_encode($datedate);
 
-    // echo "<script>main(${datedate},${idd})</script>";
+    echo "<script>main(${datedate},${idd})</script>";
 
 
     ?>
