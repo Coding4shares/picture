@@ -12,7 +12,6 @@ function getTitel($id)
     if ($id == "?") {
         return null;
     } else {
-        echo ('id: '.$id);
         $get = file_get_contents("links.json");
         $links = json_decode($get, true);
         foreach ($links as $link) {
