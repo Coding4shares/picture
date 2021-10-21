@@ -1,5 +1,5 @@
 <?php
-$domainname='localhost/'; 
+$domainname='https://img65.herokuapp.com/'; 
 ?>
 <script>
     var domainName = <?php echo json_encode($domainname);  ?>;
